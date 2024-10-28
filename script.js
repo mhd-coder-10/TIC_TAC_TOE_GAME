@@ -1,4 +1,6 @@
 
+        // JAVASCRIPT CODE OF TIC_TAC_TOE GAME
+
 let buttons = document.querySelectorAll(".btn");
 let reset_Game_Btn = document.querySelector(".reset-btn");
 let new_Game_Btn = document.querySelector(".new-btn");
