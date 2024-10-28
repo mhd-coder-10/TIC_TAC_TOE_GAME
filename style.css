@@ -1,0 +1,110 @@
+
+
+                            /* TIC TAC TOE GFAME STYLING */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {  
+    background-color: rgb(177, 234, 215);
+}
+.h11 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: rgb(9, 9, 142);
+    display: inline;
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.top-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    height: 100vmin;
+    gap: 4vmin;
+}
+
+.hide {
+    display: none;
+}
+
+.new-btn {
+    text-align: center;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: green ;
+    border: 2px solid black;
+    border: none;
+    padding: 0.3rem 0.7rem;
+    font-weight: 900;
+    font-size: 1rem; 
+    margin-top: 0.3rem;
+}
+
+.win_msg {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight:800;
+    color: darkblue;
+
+}
+
+.win_msg::first-letter {
+    color: red;
+    font-size: 3.3rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid black;   */
+    height: 70vmin;
+    width: 60vmin;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    gap: 1.7vmin;
+
+}
+
+.container button {
+    height: 17vmin;
+    width: 18.6vmin;
+    border: 2px solid black;
+    text-align: center;
+    /* margin: 0.5rem; */
+    border-radius:1rem ;
+    background-color: antiquewhite;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.reset-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-btn {
+    text-align: center;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 0.5rem 0.7rem;
+    font-weight: 900;
+    font-size: 1rem;
+    margin: 0rem;
+    background-color: red;
+    border: 2px solid black;
+    border: none;
+}
