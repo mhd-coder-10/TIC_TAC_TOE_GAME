@@ -38,7 +38,7 @@ buttons.forEach((btn)=>{
     });
 });
 
-// checkButton function
+// check Button function
 const checkButton = ()=>{
     
     for(let pattern of win_pattern) {
